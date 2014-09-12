@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 
 /**
  * Annotation for class methods.
- * 
+ *
  * @author sean
  *
  */
@@ -15,6 +15,6 @@ import java.lang.annotation.RetentionPolicy;
 @Target(ElementType.METHOD)
 public @interface PluginRequest {
 
-	String name();
-	String method() default "GET";
+    String name();
+    String method() default "GET";
 }
